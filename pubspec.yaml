@@ -39,6 +39,10 @@ dependencies:
   bloc: ^8.1.0
   flutter_bloc: ^8.1.1
   dio: ^4.0.6
+  shared_preferences: ^2.0.15
+  smooth_page_indicator: ^1.0.0+2
+  fluttertoast: ^8.1.2
+  conditional_builder_null_safety: ^0.0.6
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +70,8 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
