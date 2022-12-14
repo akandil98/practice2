@@ -64,13 +64,13 @@ Widget defaultFormField({
       obscureText: isPassword,
       enabled: isClickable,
       onFieldSubmitted: (s) {
-        onSubmit!(s);
+        //onSubmit!(s);
       },
       onChanged: (s) {
-        onChange!(s);
+        //onChange!(s);
       },
       onTap: () {
-        onTap!();
+        //onTap!;
       },
       validator: (s) {
         return validate(s);
